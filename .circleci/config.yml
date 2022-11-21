@@ -22,7 +22,7 @@ jobs:
       #Then run your tests
       - run:
           name: Test
-          command: mvn tests
+          command: mvn test
 workflows:
   sample:
     jobs:
